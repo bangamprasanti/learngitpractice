@@ -1,0 +1,10 @@
+fun chrckPrime(num n){
+    //return true for known constatnts  
+    if n==1 OR n==2
+    return true
+    for i=3;i<sqrt(n);i++
+    // Just adding squareroot
+    if(n%i == 0)
+    return false
+return true
+}
